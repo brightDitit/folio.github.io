@@ -1,0 +1,98 @@
+
+/* seting background and primary element colors**/
+
+.switch-color
+{
+    top: 30px;
+    right: 2px;
+    position: fixed;
+    width: 100px;
+    border: 1px solid var(--bg-color-50);
+    background: var(--bg-color-900);
+    z-index: 101;
+    padding: 15px;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    transform: translate(100% );
+}
+.switch-color.open
+{
+    transform: translate(-15px);
+}
+
+.switch-color .s-icon
+{
+    position:absolute;
+    height:30px;
+    width:30px;
+    font-size:20px;
+    text-align:center;
+    background:var(--bg-color-900);
+    color: var(--text-color-900);
+    border: 1px solid var(--bg-color-50);
+    right: 100%;
+    cursor: pointer;
+    border-radius:10px ;
+    margin-right: 10px;
+    
+}
+
+.switch-color .s-icon i
+{
+    line-height: 30px;
+    color: var(---swtch-bg-color);
+}
+
+.switch-color .style-switch-toggler
+{
+    top: 0;
+}
+
+.switch-color .night-walker
+{
+    top: 40px;
+}
+
+.switch-color h4
+{
+    margin: -8px 0 10px;
+    color: var(--text-color-700);
+    font-family:'Roboto' ,sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    
+}
+ 
+.switch-color .color-type 
+{
+    display: flex;
+    flex:wrap;
+    justify-content: space-between;
+    padding-bottom: 0;
+}
+.switch-color .color-type span
+{
+    width: 15px;
+    height: 15px;
+
+    border-radius: 50%;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+.switch-color .color-type span:hover
+{
+    
+    width: 20px;
+    height: 20px;
+}
+
+.color-0
+{
+    background:#ec1839;
+}
+
+.color-1
+{
+   background: #f38404fa;
+}
