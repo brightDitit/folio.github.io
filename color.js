@@ -34,11 +34,44 @@ window.addEventListener("scroll", () => {
     })
  }
 
-   
- const tog = document.getElementByid("navT");
- tog.addEventListener(click, () =>{
+ // the toggle elements lines of code bellow
 
+ document.getElementById('navT').addEventListener
+ ('click',loadtoggle);
+
+ function loadtoggle(){
+ /* the code that hide and show the nav element.........*/
+   var w = window.innerWidth;
+   var elem = document.getElementById('navID'),
+   style    = window.getComputedStyle(elem),
+   left     = style.getPropertyValue('left');
+
+
+
+
+   if(left =='0px'){
+    elem.style.left ='-270px';
+   }
+   else if(w < 1199){
+    elem.style.left ='0px';
+   }
+   else if (w >1194  ){
+    elem.style.left = '0px';
+   }
+ }
+
+ // clear text field after submitssion of form 
+ document.getElementById('sendbtn').addEventListener('click', cleartext);
+ function cleartext(e){
+    // to prevent the form reload after form submission.
+    e.preventDefault();
     
-
- } )
-
+    
+    var clientname  = document.getElementById('name');
+    var clientemail = document.getElementById('email');
+    var clientmsg   = document.getElementById('message');
+    //setting the inputs to empty after submission
+    clientname.value  = '';
+    clientemail.value ='';
+    clientmsg.value   ='';
+ }

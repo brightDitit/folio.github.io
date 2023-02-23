@@ -630,17 +630,19 @@ h2.skill
     width: 50px;
     display: block;
     margin:0 auto 30px;
-    background: red;
+   
     border-radius: 30px;
     margin-top: 20px;
     text-align: center;
 }
 
 .service .why-section .service-box
- .service-items .icons .fa
+ .service-items .icons i
  {
-    font-size: 30px;
-    line-height: 50px;
+    font-size: 50px;
+    line-height: 70px;
+    color: var(---swtch-bg-color);
+   
     
  }
 
@@ -718,10 +720,11 @@ h2.skill
 {
     display: inline-block;
 }
-.contact-info .icon img
+.contact-info .icon i
 {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 70px;
+    color: var(---swtch-bg-color);
 }
 
 .contact-info h4
@@ -843,7 +846,7 @@ h2.skill
      
     .onOffa
     {
-        left: -275px;
+        left: 0px;
     }
 
     .main-content
