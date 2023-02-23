@@ -60,7 +60,7 @@ window.addEventListener("scroll", () => {
    }
  }
 
- // clear text field after submitssion of form 
+ /*// clear text field after submitssion of form 
  document.getElementById('sendbtn').addEventListener('click', cleartext);
  function cleartext(e){
     // to prevent the form reload after form submission.
@@ -74,4 +74,6 @@ window.addEventListener("scroll", () => {
     clientname.value  = '';
     clientemail.value ='';
     clientmsg.value   ='';
+   
  }
+ */
